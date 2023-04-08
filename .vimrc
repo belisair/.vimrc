@@ -67,6 +67,12 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Comment/Uncomment
+vnoremap cp :norm i#<CR>gv
+vnoremap cs :norm i--<CR>gv
+vnoremap up :norm ^x<CR>gv
+vnoremap us :norm ^xx<CR>gv
+
 "Shortcut to paste without changing registery
 vmap <Leader>p "0p<CR>    
 
